@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:24:48.879Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.3" etag="dkO9lgmHA8VXMw5kPAZ7" type="github"><diagram id="hUTSywVGC1q6C7QXUYCx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:45:11.063Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gYXu8_LXxeolg-Cvfe-M" version="20.2.3" type="github">
+  <diagram id="hUTSywVGC1q6C7QXUYCx" name="第 1 页">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzwHOWVhJwRJv5V0Fny8-1" target="wzwHOWVhJwRJv5V0Fny8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzwHOWVhJwRJv5V0Fny8-1" target="wzwHOWVhJwRJv5V0Fny8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-1" value="根任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzwHOWVhJwRJv5V0Fny8-2" target="wzwHOWVhJwRJv5V0Fny8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzwHOWVhJwRJv5V0Fny8-2" target="wzwHOWVhJwRJv5V0Fny8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wzwHOWVhJwRJv5V0Fny8-2" target="wzwHOWVhJwRJv5V0Fny8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-2" value="子任务1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-4" value="子任务2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-6" value="子任务3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-9" value="子任务4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wzwHOWVhJwRJv5V0Fny8-12" value="&lt;h1&gt;根任务&lt;/h1&gt;&lt;p&gt;根任务执行后,查询到返回的结果数据,组装为子任务,子任务进行递归查询(根据当前的DLink需求,暂时只对dlink进行)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
