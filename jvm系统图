@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T06:11:41.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5ye-AePkCniGold7UhTh" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T06:43:31.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="D4G5fPxzGnz7EqBfQCq-" version="20.6.0" type="github">
   <diagram id="apRWSwd9ObzvE-Rxn4sq" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="5-5S9W4ODxiJA0w8YVp--35" value="&lt;h1&gt;jvm总体结构&lt;/h1&gt;&lt;p&gt;1.类加载器将编译好的.class加载到jvm中&lt;/p&gt;&lt;p&gt;2.运行时数据区用于存储在jvm运行过程中产生的数据，包括程序计数器，方法区，本地方法区，虚拟机栈，堆。&lt;/p&gt;&lt;p&gt;3.执行引擎包括即时编译器和垃圾回收器，即时编译器负责将字节码转为机器码，垃圾回收器负责将无用对象回收。&lt;/p&gt;&lt;p&gt;4.本地接口库负责调用操作系统的本地接口实现具体的指令操作。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="560" width="660" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5-5S9W4ODxiJA0w8YVp--36" value="&lt;h1&gt;Java程序执行过程&lt;/h1&gt;&lt;p&gt;1.Java源码被类加载器翻译成字节码文件（.class）&lt;/p&gt;&lt;p&gt;2.字节码通过执行引擎的即时编译器被编译成机器码&lt;/p&gt;&lt;p&gt;3.机器码调用本地方法库执行方法&lt;/p&gt;&lt;p&gt;4.运行时数据区存储运行时产生的数据&lt;/p&gt;&lt;p&gt;5.垃圾回收器回收运行时不再使用的数据&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="720" width="472.5" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
